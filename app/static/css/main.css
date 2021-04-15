@@ -1,0 +1,16 @@
+.container{
+    font-family: sans-serif;
+    position: relative;
+    text-align: center;
+    
+}
+h4{
+    text-align: center;
+}
+h3{
+    text-align: right;
+}
+.img {
+    height: 100px;
+    width: 50px;
+}

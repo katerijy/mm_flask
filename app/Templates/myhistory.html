@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h4>My Meridian Cards History:</h4>
+
+{% for mymcard in mymcard %}
+<h3><a href="{{ url_for('myhistory', mymcard_id=mymcard.id) }}">{{ mymcard.mymcard }}</a></h3>
+<p>{{ mymcard.date_created }}</p>
+<hr>
+{% endfor %}
+
+{% endblock content %}
